@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:5000";
+const BASE_URL = "http://10.0.1.88:5000";
 
 export const getTasks = async () => {
   const res = await fetch(`${BASE_URL}/tasks`);
