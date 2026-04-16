@@ -1,4 +1,4 @@
-const BASE_URL = "";
+const BASE_URL = "/api";
 
 export const getTasks = async () => {
   const res = await fetch(`${BASE_URL}/tasks`);
